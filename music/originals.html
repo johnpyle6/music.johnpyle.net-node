@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>John Pyle</title>
+	
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<![endif]-->
+
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<link type="text/css" href="assets/skin/pink.flag/css/jplayer.pink.flag.css" rel="stylesheet" />
+		<link href="assets/css/app.css" rel="stylesheet">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="assets/js/jquery-1.11.2.min.js"></script>
+		<script src="assets/js/jquery-ui.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.jplayer.js"></script>
+		<script src="assets/js/jp.js"></script>
+	</head>
+	<body>
+
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+  <div class="jp-type-single">
+    <div class="jp-gui jp-interface">
+      <!--
+      <div class="jp-volume-controls">
+        <button class="jp-mute" role="button" tabindex="0">mute</button>
+        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+        <div class="jp-volume-bar">
+          <div class="jp-volume-bar-value"></div>
+        </div>
+      </div>
+      <div class="jp-controls-holder">
+      -->
+        <div class="jp-controls">
+          <button class="jp-play" role="button" tabindex="0">play</button>
+          <button class="jp-stop" role="button" tabindex="0">stop</button>
+        </div>
+        <!-- 
+        <div class="jp-progress">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+          </div>
+        </div>
+        -->
+        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+        
+        <!-- 
+        <div class="jp-toggles">
+          <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+        </div>
+        -->
+      </div>
+    </div>
+    <div class="jp-details">
+      <div class="jp-title" aria-label="title">&nbsp;</div>
+    </div>
+    <div class="jp-no-solution">
+      <span>Update Required</span>
+      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+    </div>
+  </div>
+</div>
+
+	<table class="demo-songlist songlist">
+		<thead>	
+			<tr>
+				<th class="title" colspan="3">Big Bang Audio</th>
+			</tr>	
+		</thead>
+		<tbody>
+		<tr>
+			<th>Title</th>
+			<th>Composition Info</th>
+			<th>Credits</th>
+		<tr>
+			<td><span id="why" class="playLink">Why</span ></td>
+			<td>
+				Written: 1994<br>
+				Recorded: 2001
+			</td>
+			<td>
+				<strong>Guitar:</strong> Bryan Ewald
+				<strong>Bass:</strong> Anthony Setola<br>
+				<strong>Drums:</strong> Nick Bertling
+				<strong>Vocal:</strong> John Pyle<br>
+				<strong>Engineer:</strong> Ronni Santmyer
+			</td>
+		</tr>
+	</tbody>
+</table>
+	
+<table class="demo-songlist songlist">
+	<thead>	
+		<tr>
+			<th class="title" colspan="3">Pre Production 2002-2004, Information Interactive Studios</th>
+		</tr>	
+	</thead>
+	<tbody>
+		<tr>
+			<td><span id="wonder" class="playLink">Wonder</span ></td>
+			<td>Written: ~1998</td>
+			<td rowspan="3">
+				<strong>Guitar:</strong> John Pyle
+				<strong>Bass:</strong> John Pyle<br>
+				<strong>Drums:</strong> John Pyle
+				<strong>Vocal:</strong> John Pyle<br>
+				<strong>Engineer:</strong> John Pyle
+			</td>
+		</tr>
+		<tr>
+			<td><span id="comeback" class="playLink">Come Back to My Heart</span ></td>
+			<td>Written: December 2001</td>
+		</tr>
+		<tr>
+			<td><span id="dawnsong" class="playLink">Dawn Song</span ></td>
+			<td>Written: January 2004</td>
+		</tr>	
+		<tr>
+			<td><span id="andstop" class="playLink">And Stop</span ></td>
+			<td>Written: Summer 1998</td>
+		</tr>
+		<tr>
+			<td><span id="backAndForth" class="playLink">Back and Forth</span ></td>
+			<td>Written: Spring 2000</td>
+		</tr>
+	</tbody>
+</table>
+		
+<table class="demo-songlist songlist">
+	<thead>	
+		<tr>
+			<th class="title" colspan="3">Early "Amatuer" Recordings</th>
+		</tr>	
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="2"><span id="depend" class="playLink">Depend</span ></td>
+			<td>
+				Written: ~1997<br>
+				Recorded: 2000<br>
+			</td>
+			<td>
+				<strong>Guitar:</strong> John Pyle<br>
+				<strong>Vocal:</strong> John Pyle
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="xxx">
+				<span class="xxx">Notes: I recorded this on a 486 with 256MB of memory, using the integrated sound card, 
+				a Shure SM57, and Cakewalk for tracking.</span>
+			</td>
+		<tr>
+			<td rowspan="2"><span id="sarah" class="playLink">Sara</span ></td>
+			<td>
+				Written: ~1998<br>
+				Recorded: Fall 2002
+			</td>
+			<td>
+				<strong>Guitar:</strong> John Pyle
+				<strong>Bass:</strong> John Pyle<br>
+				<strong>Drums:</strong> Brad Kimes
+				<strong>Vocal:</strong> John Pyle<br>
+				<strong>Engineer:</strong> John Pyle
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="xxx">
+				<span class="xxx">
+				Notes: The drums were recorded at Non Such Productions, with the remainder recorded
+				at my project studio
+				</span>
+			</td>
+			
+		</tr>
+		<tr>
+			<td rowspan="2"><span id="history" class="playLink">The History</span ></td>
+			<td>
+				Written: 2000<br>
+				Recorded: 2008
+			</td>
+			<td>
+				<strong>Guitar:</strong> Bryan Ewald
+				<strong>Bass:</strong> Anthony Setola<br>
+				<strong>Drums:</strong> Nick Bertling
+				<strong>Vocal:</strong> John Pyle<br>
+				<strong>Engineer:</strong> Ronni Santmyer
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="xxx">
+				<span class="xxx">
+				Notes: A completely different version of this song was recorded at Big Bang. I did this 
+				version to return to the original concept for comparison. I'll have the other version up soon.
+				</span>
+			</td>
+			
+		</tr>
+	</table>
+	
+	
+<section id="footer">
+	<nav id="nav">
+		<ul>
+			<li><a href="/">home</a></li>
+			<li>original music</li>
+			<li class="last"><a href="/demo.php">demo</a></li>
+		</ul>
+	</nav>
+	<p class="copy">&copy;2015 John Pyle All Rights Reserved</p>
+</section>
+
+	<script type="text/javascript">
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-66637533-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+</body>
+</html>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

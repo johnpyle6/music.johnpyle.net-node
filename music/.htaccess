@@ -1,0 +1,9 @@
+  RewriteEngine on
+
+  RewriteCond %{REQUEST_URI} binaries 
+  RewriteRule  ^(.*)$ /demo/  [R,L]
+
+
+  RewriteCond %{SERVER_NAME} demo.johnpyle.net
+  RewriteRule  ^(.*)$ http://johnpyle.net/demo/  [R,L]
+

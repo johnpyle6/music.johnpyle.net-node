@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'myTerminal';
+  src: url('../fonts/SVBasicManual.ttf')
+}
+
+body
+{
+	font-family: 'myTerminal';
+	background-color: black;
+	color: #999;
+}
+
+
+.songlist
+{
+	padding: 20px;
+	margin: 20px auto;
+	width: 90%;
+}
+
+.demo-songlist td:first-of-type
+{
+	width: 25%;
+}
+
+.demo-songlist td:nth-of-type(2)
+{
+	width: 25%;
+}
+
+
+table.songlist tbody td
+{
+	padding: 5px 10px 10px;
+	vertical-align: top;
+}
+
+
+.demo-songlist th.title
+{
+	padding: 5px;
+	font-size: larger;
+	border-top: 1px solid #111;
+	border-bottom: 1px solid #111;
+	background-color: #111;
+	text-align: right;
+}
+
+.demo-songlist td.title:previous
+{
+	padding-bottom: 10px;
+}
+
+tbody:before {
+    content: "-";
+    display: block;
+    line-height: 5px;
+    text-indent: -100%
+}
+
+
+#main
+{
+	width: 350px;
+	margin: 100px auto;
+	padding: 20px;
+}
+
+#logo
+{
+	text-align: center;
+	font: 60px normal 'myTerminal';
+}
+
+nav
+{
+	margin-top: 50px;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li
+{
+	display: inline;
+	margin-right: 20px;
+	font: 20px normal 'myTerminal';
+}
+
+nav ul li.last
+{
+	margin-right: 0px;
+}
+
+
+
+.playLink
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.jp-audio
+{
+	border: none;
+	background-color: transparent;
+	width: 200px;
+	margin: 30px auto 10px;
+	padding: 0;
+    height: 80px;
+}
+
+
+#footer
+{
+	width: 350px;
+	margin: 20px auto;
+	padding: 20px;
+}
+	
+	
+}
+
+#footer-nav
+{
+	font-size: medium
+}
+
+.copy
+{
+	font-size: small;
+	text-align: center;
+}
+
+span.xxx
+{
+	position:relative;
+	top: -10px;
+}
